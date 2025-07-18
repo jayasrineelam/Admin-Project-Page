@@ -57,7 +57,7 @@ function ProfilePage1MUI() {
     return (
         <Box sx={{ maxWidth: 1000, mx:'auto', mt: 5, p: 2 }}>
 
-            <Typography variant="h6" sx={{ mb: 2, color: 'purple' }}>My Profile</Typography>
+            <Typography variant="h6" sx={{ mb: 2, color: 'purple' textAlign: 'left' }}>My Profile</Typography>
 
             <Paper sx={{ p: 2, mb: 2, borderRadius: 2 }}>
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -119,7 +119,7 @@ function ProfilePage1MUI() {
                     </Button>
                 </Box>
 
-                <Grid container spacing={4}>
+                <Grid container spacing={3}>
                     {renderField('Country', 'country')}
                     {renderField('City', 'city')}
                     {renderField('Postal Code', 'postalcode')}
