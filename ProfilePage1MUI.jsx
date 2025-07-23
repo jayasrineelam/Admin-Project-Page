@@ -45,7 +45,7 @@ function ProfilePage1MUI() {
         if (file) {
             const reader = new FileReader();
             reader.onload = () => {
-                setProfileImage(reader.result); // 🆕 set image preview
+                setProfileImage(reader.result); 
             };
             reader.readAsDataURL(file);
         }
